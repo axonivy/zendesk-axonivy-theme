@@ -1,16 +1,17 @@
-# Copenhagen Theme by Zendesk
+# Axon Ivy Theme for Zendesk Guide
 
-The Copenhagen theme is the default Zendesk Guide theme. It is designed to be responsive and accessible.
-Learn more about customizing Zendesk Guide [here](https://support.zendesk.com/hc/en-us/sections/206670747).
+For details on the original Zendesk Copenhagen theme, check [here](https://support.zendesk.com/hc/en-us/sections/206670747) and GitHub repository zendesk/copenhagen_theme.
 
-The Copenhagen theme for Help Center consists of a [set of templates](#templates), [styles](#styles), a Javascript file used mainly for interactions and an [assets folder](#assets).
+## Customizations implemented
 
-## How to use
-This is the latest version of the Copenhagen theme available for Guide. It is possible to use this repository as a starting point to build your own custom theme. You can fork this repository as you see fit.
-You can use your favorite IDE to develop themes and preview your changes locally in a web browser using the Zendesk Apps Tools (ZAT). For details, see [Previewing theme changes locally](https://support.zendesk.com/hc/en-us/articles/115014810447).
+- We have removed community and knowledgebase from Guide such that it just serves as a front end for customers creating, 
+  reading and updating their tickets.
 
-## Customizing your theme
-Once you have forked this repository you can feel free to edit templates, CSS in `style.css` (if you would like to use SASS go to the [Using SASS section](#using-sass)), javascript and manage assets.
+- We have added our style, colors and the photograph from our main developer site, developer.axonivy.com.
+
+- We have added code to show the links on the homepage based on the user's role - anonymous, enduser, agent, administrator
+
+- We have added a special favicon to avoid having just the black A on browser tabs if you work with Axon Ivy.
 
 ### Manifest file
 The manifest allows you to define a group of settings for your theme that can then be changed via the UI in Theming Center.
