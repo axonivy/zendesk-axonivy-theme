@@ -13,6 +13,9 @@ For details on the original Zendesk Copenhagen theme, check [here](https://suppo
 
 - We have added a special favicon to avoid having just the black A on browser tabs if you work with Axon Ivy.
 
+
+## Original Zendesk README.md
+
 ### Manifest file
 The manifest allows you to define a group of settings for your theme that can then be changed via the UI in Theming Center.
 You can read more about the manifest file [here](https://support.zendesk.com/hc/en-us/articles/115012547687).
